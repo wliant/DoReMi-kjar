@@ -1,15 +1,13 @@
 [
   [
-    "name" : "MyTask", 
+    "name" : "SaveCustomerTask", 
     "parameters" : [ 
-        "MyFirstParam" : new StringDataType(), 
-        "MySecondParam" : new StringDataType(), 
-        "MyThirdParam" : new ObjectDataType() 
+        "param1" : new ObjectDataType() 
     ], 
     "results" : [ 
-        "Result" : new ObjectDataType("java.util.Map") 
+
     ], 
-    "displayName" : "My Task", 
+    "displayName" : "Save Customer Task", 
     "icon" : "" 
   ]
 ]
