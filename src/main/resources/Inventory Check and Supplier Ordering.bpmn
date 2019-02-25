@@ -1,34 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/bpmn20" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:drools="http://www.jboss.org/drools" id="_JL4_gDj9EemDAvuttQ_5VA" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd http://www.omg.org/spec/DD/20100524/DC DC.xsd http://www.omg.org/spec/DD/20100524/DI DI.xsd " exporter="jBPM Process Modeler" exporterVersion="2.0" targetNamespace="http://www.omg.org/bpmn20">
+<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/bpmn20" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:drools="http://www.jboss.org/drools" id="_cwnjYDj9EemDAvuttQ_5VA" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd http://www.omg.org/spec/DD/20100524/DC DC.xsd http://www.omg.org/spec/DD/20100524/DI DI.xsd " exporter="jBPM Process Modeler" exporterVersion="2.0" targetNamespace="http://www.omg.org/bpmn20">
   <bpmn2:process id="DoReMi-kjar.InventoryCheckandSupplierOrdering" drools:packageName="org.jbpm" drools:version="1.0" drools:adHoc="false" name="Inventory Check and Supplier Ordering" isExecutable="true">
-    <bpmn2:documentation id="_JL4_gTj9EemDAvuttQ_5VA"><![CDATA[]]></bpmn2:documentation>
+    <bpmn2:documentation id="_cwnjYTj9EemDAvuttQ_5VA"><![CDATA[]]></bpmn2:documentation>
+    <bpmn2:task id="_59E839A0-9C3C-486C-8654-27E22B2A175D" name="Check Existing Inventory">
+      <bpmn2:documentation id="_cwnjYjj9EemDAvuttQ_5VA"><![CDATA[]]></bpmn2:documentation>
+      <bpmn2:extensionElements>
+        <drools:metaData name="elementname">
+          <drools:metaValue><![CDATA[Check Existing Inventory]]></drools:metaValue>
+        </drools:metaData>
+      </bpmn2:extensionElements>
+    </bpmn2:task>
     <bpmn2:startEvent id="_B061C419-38BB-46EB-9813-1AEBE0298157">
-      <bpmn2:documentation id="_JL4_gjj9EemDAvuttQ_5VA"><![CDATA[]]></bpmn2:documentation>
+      <bpmn2:documentation id="_cwnjYzj9EemDAvuttQ_5VA"><![CDATA[]]></bpmn2:documentation>
     </bpmn2:startEvent>
   </bpmn2:process>
-  <bpmndi:BPMNDiagram id="_JL4_gzj9EemDAvuttQ_5VA">
-    <bpmndi:BPMNPlane id="_JL4_hDj9EemDAvuttQ_5VA" bpmnElement="DoReMi-kjar.InventoryCheckandSupplierOrdering">
+  <bpmndi:BPMNDiagram id="_cwnjZDj9EemDAvuttQ_5VA">
+    <bpmndi:BPMNPlane id="_cwnjZTj9EemDAvuttQ_5VA" bpmnElement="DoReMi-kjar.InventoryCheckandSupplierOrdering">
       <bpmndi:BPMNShape id="shape__B061C419-38BB-46EB-9813-1AEBE0298157" bpmnElement="_B061C419-38BB-46EB-9813-1AEBE0298157">
-        <dc:Bounds x="100.0" y="100.0"/>
+        <dc:Bounds height="56.0" width="56.0" x="100.0" y="100.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="shape__59E839A0-9C3C-486C-8654-27E22B2A175D" bpmnElement="_59E839A0-9C3C-486C-8654-27E22B2A175D">
+        <dc:Bounds height="102.0" width="154.0" x="254.0" y="84.0"/>
       </bpmndi:BPMNShape>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
-  <bpmn2:relationship id="_JL4_hTj9EemDAvuttQ_5VA" type="BPSimData">
+  <bpmn2:relationship id="_cwnjZjj9EemDAvuttQ_5VA" type="BPSimData">
     <bpmn2:extensionElements>
       <bpsim:BPSimData>
         <bpsim:Scenario xsi:type="bpsim:Scenario" id="default" name="Simulationscenario">
           <bpsim:ScenarioParameters xsi:type="bpsim:ScenarioParameters"/>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_B061C419-38BB-46EB-9813-1AEBE0298157" id="_JL4_hjj9EemDAvuttQ_5VA">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_B061C419-38BB-46EB-9813-1AEBE0298157" id="_cwqmsDj9EemDAvuttQ_5VA">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
               </bpsim:ProcessingTime>
             </bpsim:TimeParameters>
           </bpsim:ElementParameters>
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_59E839A0-9C3C-486C-8654-27E22B2A175D" id="_cwqmsTj9EemDAvuttQ_5VA">
+            <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
+              <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
+                <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
+              </bpsim:ProcessingTime>
+            </bpsim:TimeParameters>
+            <bpsim:ResourceParameters xsi:type="bpsim:ResourceParameters">
+              <bpsim:Availability xsi:type="bpsim:Parameter">
+                <bpsim:FloatingParameter value="0.0"/>
+              </bpsim:Availability>
+              <bpsim:Quantity xsi:type="bpsim:Parameter">
+                <bpsim:FloatingParameter value="0.0"/>
+              </bpsim:Quantity>
+            </bpsim:ResourceParameters>
+            <bpsim:CostParameters xsi:type="bpsim:CostParameters">
+              <bpsim:UnitCost xsi:type="bpsim:Parameter">
+                <bpsim:FloatingParameter value="0.0"/>
+              </bpsim:UnitCost>
+            </bpsim:CostParameters>
+          </bpsim:ElementParameters>
         </bpsim:Scenario>
       </bpsim:BPSimData>
     </bpmn2:extensionElements>
-    <bpmn2:source>_JL4_gDj9EemDAvuttQ_5VA</bpmn2:source>
-    <bpmn2:target>_JL4_gDj9EemDAvuttQ_5VA</bpmn2:target>
+    <bpmn2:source>_cwnjYDj9EemDAvuttQ_5VA</bpmn2:source>
+    <bpmn2:target>_cwnjYDj9EemDAvuttQ_5VA</bpmn2:target>
   </bpmn2:relationship>
 </bpmn2:definitions>
