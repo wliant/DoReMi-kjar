@@ -4,9 +4,6 @@
     "parameters" : [ 
         "param1" : new ObjectDataType() 
     ], 
-    "results" : [ 
-
-    ], 
     "displayName" : "Save Customer Task", 
     "icon" : "" 
   ]
