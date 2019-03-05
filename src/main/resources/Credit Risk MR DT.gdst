@@ -423,7 +423,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>High</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
