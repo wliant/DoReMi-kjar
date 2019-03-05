@@ -1,5 +1,5 @@
 <decision-table52>
-  <tableName>Bulk Purchase DT</tableName>
+  <tableName>Bulk Purchase Discount DT</tableName>
   <rowNumberCol>
     <hideColumn>false</hideColumn>
     <width>-1</width>
