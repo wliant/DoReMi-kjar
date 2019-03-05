@@ -80,6 +80,7 @@
             </constraints>
           </constraintList>
           <factType>Order</factType>
+          <boundName>app</boundName>
           <isNegated>false</isNegated>
           <window>
             <parameters/>
@@ -323,7 +324,7 @@
     </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
   </conditionPatterns>
   <actionCols>
-    <insert-fact-column52>
+    <set-field-col52>
       <typedDefaultValue>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
@@ -332,12 +333,11 @@
       <hideColumn>false</hideColumn>
       <width>100</width>
       <header>Approved</header>
-      <factType>Order</factType>
-      <boundName>order</boundName>
+      <boundName>app</boundName>
       <factField>approved</factField>
       <type>Boolean</type>
-      <isInsertLogical>false</isInsertLogical>
-    </insert-fact-column52>
+      <update>true</update>
+    </set-field-col52>
   </actionCols>
   <auditLog>
     <filter class="org.drools.guvnor.client.modeldriven.dt52.auditlog.DecisionTableAuditLogFilter">
