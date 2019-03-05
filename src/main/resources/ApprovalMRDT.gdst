@@ -80,7 +80,7 @@
             </constraints>
           </constraintList>
           <factType>Order</factType>
-          <boundName>app</boundName>
+          <boundName>order</boundName>
           <isNegated>false</isNegated>
           <window>
             <parameters/>
@@ -333,7 +333,7 @@
       <hideColumn>false</hideColumn>
       <width>100</width>
       <header>Approved</header>
-      <boundName>app</boundName>
+      <boundName>order</boundName>
       <factField>approved</factField>
       <type>Boolean</type>
       <update>true</update>
