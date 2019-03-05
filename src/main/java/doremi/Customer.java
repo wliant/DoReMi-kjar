@@ -8,31 +8,31 @@ public class Customer implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	@org.kie.api.definition.type.Label(value = "Customer")
+	@org.kie.api.definition.type.Label("Customer")
 	private java.lang.Integer customerID;
-	@org.kie.api.definition.type.Label(value = "Is Corporate")
+	@org.kie.api.definition.type.Label("Is Corporate")
 	private java.lang.Boolean isCorporate;
-	@org.kie.api.definition.type.Label(value = "Credit Risk")
+	@org.kie.api.definition.type.Label("Credit Risk")
 	private java.lang.String creditRisk;
-	@org.kie.api.definition.type.Label(value = "Financial Indicator ID")
-	private java.lang.Integer financialIndicatorID;
-	@org.kie.api.definition.type.Label(value = "Customer Name")
+	@org.kie.api.definition.type.Label("Financial Indicator ID")
+	private financialIndicators financialIndicatorID;
+	@org.kie.api.definition.type.Label("Customer Name")
 	private java.lang.String customerName;
-	@org.kie.api.definition.type.Label(value = "Customer Address")
+	@org.kie.api.definition.type.Label("Customer Address")
 	private java.lang.String customerAddress;
-	@org.kie.api.definition.type.Label(value = "Date Registered")
+	@org.kie.api.definition.type.Label("Date Registered")
 	private java.time.LocalDateTime dateRegistered;
-	@org.kie.api.definition.type.Label(value = "Late Payment")
+	@org.kie.api.definition.type.Label("Late Payment")
 	private java.lang.Boolean latePayment;
-	@org.kie.api.definition.type.Label(value = "Defaulter")
+	@org.kie.api.definition.type.Label("Defaulter")
 	private java.lang.Boolean defaulter;
-	@org.kie.api.definition.type.Label(value = "is New")
+	@org.kie.api.definition.type.Label("is New")
 	private java.lang.Boolean isNew;
-	@org.kie.api.definition.type.Label(value = "Years Active")
+	@org.kie.api.definition.type.Label("Years Active")
 	private java.lang.Integer yearsActive;
-	@org.kie.api.definition.type.Label(value = "LTV")
+	@org.kie.api.definition.type.Label("LTV")
 	private java.lang.Float ltv;
-	@org.kie.api.definition.type.Label(value = "Frequency of Purchase")
+	@org.kie.api.definition.type.Label("Frequency of Purchase")
 	private java.lang.String frequencyOfPurchase;
 
 	public Customer() {
@@ -60,14 +60,6 @@ public class Customer implements java.io.Serializable {
 
 	public void setCreditRisk(java.lang.String creditRisk) {
 		this.creditRisk = creditRisk;
-	}
-
-	public java.lang.Integer getFinancialIndicatorID() {
-		return this.financialIndicatorID;
-	}
-
-	public void setFinancialIndicatorID(java.lang.Integer financialIndicatorID) {
-		this.financialIndicatorID = financialIndicatorID;
 	}
 
 	public java.lang.String getCustomerName() {
@@ -142,9 +134,18 @@ public class Customer implements java.io.Serializable {
 		this.frequencyOfPurchase = frequencyOfPurchase;
 	}
 
+	public doremi.financialIndicators getFinancialIndicatorID() {
+		return this.financialIndicatorID;
+	}
+
+	public void setFinancialIndicatorID(
+			doremi.financialIndicators financialIndicatorID) {
+		this.financialIndicatorID = financialIndicatorID;
+	}
+
 	public Customer(java.lang.Integer customerID,
 			java.lang.Boolean isCorporate, java.lang.String creditRisk,
-			java.lang.Integer financialIndicatorID,
+			doremi.financialIndicators financialIndicatorID,
 			java.lang.String customerName, java.lang.String customerAddress,
 			java.time.LocalDateTime dateRegistered,
 			java.lang.Boolean latePayment, java.lang.Boolean defaulter,
