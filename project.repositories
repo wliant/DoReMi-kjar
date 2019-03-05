@@ -19,8 +19,13 @@
     <repository>
       <include>true</include>
       <metadata>
+<<<<<<< HEAD
         <id>jboss-public-repository-group</id>
         <url>https://repository.jboss.org/nexus/content/groups/public/</url>
+=======
+        <id>central</id>
+        <url>https://repo.maven.apache.org/maven2</url>
+>>>>>>> 5deea86b73f3f6f27ad19e599b6477ffbe392abb
         <source>PROJECT</source>
       </metadata>
     </repository>
