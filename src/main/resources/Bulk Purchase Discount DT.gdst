@@ -492,7 +492,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>bulkPurchaseDT</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -534,7 +534,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric>0.2</valueNumeric>
+        <valueNumeric>0.02</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
