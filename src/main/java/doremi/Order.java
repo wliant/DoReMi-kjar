@@ -6,12 +6,116 @@ package doremi;
 
 public class Order implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Order() {
-    }
+	@org.kie.api.definition.type.Label(value = "Order ID")
+	private java.lang.Integer orderID;
+	@org.kie.api.definition.type.Label(value = "Order Date")
+	private java.time.LocalDateTime orderDate;
+	@org.kie.api.definition.type.Label(value = "CustomerID")
+	private doremi.Customer customerID;
+	@org.kie.api.definition.type.Label(value = "Country")
+	private java.lang.String country;
+	@org.kie.api.definition.type.Label(value = "Status")
+	private java.lang.String status;
+	@org.kie.api.definition.type.Label(value = "Order Line Item")
+	private java.lang.Integer orderLineItem;
+	@org.kie.api.definition.type.Label(value = "Order Value")
+	private java.lang.Float orderValue;
+	@org.kie.api.definition.type.Label(value = "Approved")
+	private java.lang.Boolean approved;
+	@org.kie.api.definition.type.Label(value = "Order Discount")
+	private java.lang.Float orderDiscount;
 
+	public Order() {
+	}
 
+	public java.lang.Integer getOrderID() {
+		return this.orderID;
+	}
 
+	public void setOrderID(java.lang.Integer orderID) {
+		this.orderID = orderID;
+	}
+
+	public java.time.LocalDateTime getOrderDate() {
+		return this.orderDate;
+	}
+
+	public void setOrderDate(java.time.LocalDateTime orderDate) {
+		this.orderDate = orderDate;
+	}
+
+	public doremi.Customer getCustomerID() {
+		return this.customerID;
+	}
+
+	public void setCustomerID(doremi.Customer customerID) {
+		this.customerID = customerID;
+	}
+
+	public java.lang.String getCountry() {
+		return this.country;
+	}
+
+	public void setCountry(java.lang.String country) {
+		this.country = country;
+	}
+
+	public java.lang.String getStatus() {
+		return this.status;
+	}
+
+	public void setStatus(java.lang.String status) {
+		this.status = status;
+	}
+
+	public java.lang.Integer getOrderLineItem() {
+		return this.orderLineItem;
+	}
+
+	public void setOrderLineItem(java.lang.Integer orderLineItem) {
+		this.orderLineItem = orderLineItem;
+	}
+
+	public java.lang.Float getOrderValue() {
+		return this.orderValue;
+	}
+
+	public void setOrderValue(java.lang.Float orderValue) {
+		this.orderValue = orderValue;
+	}
+
+	public java.lang.Boolean getApproved() {
+		return this.approved;
+	}
+
+	public void setApproved(java.lang.Boolean approved) {
+		this.approved = approved;
+	}
+
+	public java.lang.Float getOrderDiscount() {
+		return this.orderDiscount;
+	}
+
+	public void setOrderDiscount(java.lang.Float orderDiscount) {
+		this.orderDiscount = orderDiscount;
+	}
+
+	public Order(java.lang.Integer orderID, java.time.LocalDateTime orderDate,
+			doremi.Customer customerID, java.lang.String country,
+			java.lang.String status, java.lang.Integer orderLineItem,
+			java.lang.Float orderValue, java.lang.Boolean approved,
+			java.lang.Float orderDiscount) {
+		this.orderID = orderID;
+		this.orderDate = orderDate;
+		this.customerID = customerID;
+		this.country = country;
+		this.status = status;
+		this.orderLineItem = orderLineItem;
+		this.orderValue = orderValue;
+		this.approved = approved;
+		this.orderDiscount = orderDiscount;
+	}
 
 }
