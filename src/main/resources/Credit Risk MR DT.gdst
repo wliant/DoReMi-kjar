@@ -80,6 +80,7 @@
             </constraints>
           </constraintList>
           <factType>Customer</factType>
+          <boundName>customer</boundName>
           <isNegated>false</isNegated>
           <window>
             <parameters/>
@@ -325,7 +326,7 @@
     </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
   </conditionPatterns>
   <actionCols>
-    <insert-fact-column52>
+    <set-field-col52>
       <typedDefaultValue>
         <valueString></valueString>
         <dataType>STRING</dataType>
@@ -334,12 +335,11 @@
       <hideColumn>false</hideColumn>
       <width>100</width>
       <header>Credit Risk</header>
-      <factType>Customer</factType>
       <boundName>customer</boundName>
       <factField>creditRisk</factField>
       <type>String</type>
-      <isInsertLogical>false</isInsertLogical>
-    </insert-fact-column52>
+      <update>true</update>
+    </set-field-col52>
   </actionCols>
   <auditLog>
     <filter class="org.drools.guvnor.client.modeldriven.dt52.auditlog.DecisionTableAuditLogFilter">
