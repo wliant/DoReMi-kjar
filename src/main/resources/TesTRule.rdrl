@@ -1,7 +1,11 @@
 import java.lang.Number;
+import com.thesundaylunatics.model.Customer;
 
 rule "TesTRule"
 	dialect "mvel"
+	ruleflow-group "testRule"
 	when
+		c1 : Customer( )
 	then
+		c1.setCreditRisk( "high" );
 end
