@@ -1,0 +1,10 @@
+[
+  [
+    "name" : "SaveCustomerTask", 
+    "parameters" : [ 
+        "param1" : new ObjectDataType() 
+    ], 
+    "displayName" : "Save Customer Task", 
+    "icon" : "" 
+  ]
+]
