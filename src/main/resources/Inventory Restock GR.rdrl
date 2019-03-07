@@ -1,0 +1,20 @@
+import java.lang.Number;
+import com.thesundaylunatics.model.Product;
+import com.thesundaylunatics.model.RestockRequest;
+
+rule "Inventory Decision"
+	dialect "mvel"
+	ruleflow-group "inventoryStockGR"
+	when
+		inventoryDecision : Product( stockLevel == "Low" , productDemand == "High" , supplierLeadTime == "Long" )
+		inventoryDecision2 : Product( stockLevel == "Low" , productDemand == "High" , supplierLeadTime == "Moderate" )
+	then
+		RestockRequest fact0 = new RestockRequest();
+		fact0.setProduct( inventoryDecision );
+		fact0.setQuantity( 100 );
+		insert( fact0 );
+		RestockRequest fact1 = new RestockRequest();
+		fact1.setProduct( inventoryDecision2 );
+		fact1.setQuantity( 200 );
+		insert( fact1 );
+end

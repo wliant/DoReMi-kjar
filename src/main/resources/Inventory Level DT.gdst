@@ -43,7 +43,7 @@
                   <index>2147483647</index>
                 </expression>
                 <parameters/>
-                <factType>ProductInventory</factType>
+                <factType>Product</factType>
                 <fieldName>stockLevel</fieldName>
                 <fieldType>java.lang.String</fieldType>
                 <expLeftSide>
@@ -55,10 +55,10 @@
                         <classType>java.lang.String</classType>
                         <genericType>String</genericType>
                       </next>
-                      <name>ProductInventory</name>
-                      <classType>ProductInventory</classType>
-                      <genericType>ProductInventory</genericType>
-                      <factType>ProductInventory</factType>
+                      <name>Product</name>
+                      <classType>Product</classType>
+                      <genericType>Product</genericType>
+                      <factType>Product</factType>
                     </org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact>
                     <org.drools.workbench.models.datamodel.rule.ExpressionField reference="../org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact/next"/>
                   </parts>
@@ -67,8 +67,8 @@
               </org.drools.workbench.models.datamodel.rule.SingleFieldConstraintEBLeftSide>
             </constraints>
           </constraintList>
-          <factType>ProductInventory</factType>
-          <boundName>app</boundName>
+          <factType>Product</factType>
+          <boundName>inventoryApp</boundName>
           <isNegated>false</isNegated>
           <window>
             <parameters/>
@@ -85,7 +85,7 @@
           <fieldType>String</fieldType>
           <parameters/>
           <varName>$stockLevel</varName>
-          <factType>ProductInventory</factType>
+          <factType>Product</factType>
         </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
       </childColumns>
     </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
@@ -108,7 +108,7 @@
                   <index>2147483647</index>
                 </expression>
                 <parameters/>
-                <factType>ProductInventory</factType>
+                <factType>Product</factType>
                 <fieldName>productDemand</fieldName>
                 <fieldType>java.lang.String</fieldType>
                 <expLeftSide>
@@ -120,10 +120,10 @@
                         <classType>java.lang.String</classType>
                         <genericType>String</genericType>
                       </next>
-                      <name>ProductInventory</name>
-                      <classType>ProductInventory</classType>
-                      <genericType>ProductInventory</genericType>
-                      <factType>ProductInventory</factType>
+                      <name>Product</name>
+                      <classType>Product</classType>
+                      <genericType>Product</genericType>
+                      <factType>Product</factType>
                     </org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact>
                     <org.drools.workbench.models.datamodel.rule.ExpressionField reference="../org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact/next"/>
                   </parts>
@@ -132,7 +132,7 @@
               </org.drools.workbench.models.datamodel.rule.SingleFieldConstraintEBLeftSide>
             </constraints>
           </constraintList>
-          <factType>ProductInventory</factType>
+          <factType>Product</factType>
           <isNegated>false</isNegated>
           <window>
             <parameters/>
@@ -149,7 +149,7 @@
           <fieldType>String</fieldType>
           <parameters/>
           <varName>$productDemand</varName>
-          <factType>ProductInventory</factType>
+          <factType>Product</factType>
         </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
       </childColumns>
     </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
@@ -172,7 +172,7 @@
                   <index>2147483647</index>
                 </expression>
                 <parameters/>
-                <factType>ProductInventory</factType>
+                <factType>Product</factType>
                 <fieldName>supplierLeadTime</fieldName>
                 <fieldType>java.lang.String</fieldType>
                 <expLeftSide>
@@ -184,10 +184,10 @@
                         <classType>java.lang.String</classType>
                         <genericType>String</genericType>
                       </next>
-                      <name>ProductInventory</name>
-                      <classType>ProductInventory</classType>
-                      <genericType>ProductInventory</genericType>
-                      <factType>ProductInventory</factType>
+                      <name>Product</name>
+                      <classType>Product</classType>
+                      <genericType>Product</genericType>
+                      <factType>Product</factType>
                     </org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact>
                     <org.drools.workbench.models.datamodel.rule.ExpressionField reference="../org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact/next"/>
                   </parts>
@@ -196,7 +196,7 @@
               </org.drools.workbench.models.datamodel.rule.SingleFieldConstraintEBLeftSide>
             </constraints>
           </constraintList>
-          <factType>ProductInventory</factType>
+          <factType>Product</factType>
           <isNegated>false</isNegated>
           <window>
             <parameters/>
@@ -213,7 +213,7 @@
           <fieldType>String</fieldType>
           <parameters/>
           <varName>$supplierLeadTime</varName>
-          <factType>ProductInventory</factType>
+          <factType>Product</factType>
         </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
       </childColumns>
     </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
@@ -236,7 +236,7 @@
                   <index>2147483647</index>
                 </expression>
                 <parameters/>
-                <factType>ProductInventory</factType>
+                <factType>Product</factType>
                 <fieldName>serviceLevel</fieldName>
                 <fieldType>java.lang.String</fieldType>
                 <expLeftSide>
@@ -248,10 +248,10 @@
                         <classType>java.lang.String</classType>
                         <genericType>String</genericType>
                       </next>
-                      <name>ProductInventory</name>
-                      <classType>ProductInventory</classType>
-                      <genericType>ProductInventory</genericType>
-                      <factType>ProductInventory</factType>
+                      <name>Product</name>
+                      <classType>Product</classType>
+                      <genericType>Product</genericType>
+                      <factType>Product</factType>
                     </org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact>
                     <org.drools.workbench.models.datamodel.rule.ExpressionField reference="../org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact/next"/>
                   </parts>
@@ -260,7 +260,7 @@
               </org.drools.workbench.models.datamodel.rule.SingleFieldConstraintEBLeftSide>
             </constraints>
           </constraintList>
-          <factType>ProductInventory</factType>
+          <factType>Product</factType>
           <isNegated>false</isNegated>
           <window>
             <parameters/>
@@ -277,28 +277,12 @@
           <fieldType>String</fieldType>
           <parameters/>
           <varName>$serviceLevel</varName>
-          <factType>ProductInventory</factType>
+          <factType>Product</factType>
         </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
       </childColumns>
     </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
   </conditionPatterns>
-  <actionCols>
-    <set-field-col52>
-      <typedDefaultValue>
-        <valueString>Do Nothing</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </typedDefaultValue>
-      <hideColumn>false</hideColumn>
-      <width>100</width>
-      <header>Inventory Action</header>
-      <boundName>app</boundName>
-      <factField>inventoryDecision</factField>
-      <type>String</type>
-      <valueList>Increase Stock Sharply, Increase Stock Moderately,  Do Nothing, Decrease Stock</valueList>
-      <update>false</update>
-    </set-field-col52>
-  </actionCols>
+  <actionCols/>
   <auditLog>
     <filter class="org.drools.guvnor.client.modeldriven.dt52.auditlog.DecisionTableAuditLogFilter">
       <acceptedTypes>
@@ -329,7 +313,7 @@
   <imports>
     <imports>
       <org.kie.soup.project.datamodel.imports.Import>
-        <type>com.thesundaylunatics.model.ProductInventory</type>
+        <type>com.thesundaylunatics.model.Product</type>
       </org.kie.soup.project.datamodel.imports.Import>
     </imports>
   </imports>
@@ -355,27 +339,22 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Low</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>High</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Long</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Increase Stock Sharply</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -398,27 +377,22 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Low</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>High</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Long</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Increase Stock Sharply</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -460,11 +434,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Increase Stock Moderately</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -494,17 +463,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Moderate</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Increase Stock Sharply</valueString>
+        <valueString>Low</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -537,17 +501,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Moderate</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Increase Stock Moderately</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -570,27 +529,22 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Low</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>High</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Moderate</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Increase Stock Moderately</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -613,27 +567,22 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Low</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>High</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Short</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Increase Stock Sharply</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -656,27 +605,22 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Low</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>High</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Short</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Increase Stock Moderately</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -699,27 +643,22 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Low</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>High</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Short</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Increase Stock Moderately</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -742,27 +681,22 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Low</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Medium</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Long</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Increase Stock Moderately</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -785,27 +719,22 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Low</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Medium</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Long</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Increase Stock Moderately</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -828,27 +757,22 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Low</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Medium</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Long</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Increase Stock Moderately</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
