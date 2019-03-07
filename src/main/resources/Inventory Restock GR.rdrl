@@ -2,9 +2,9 @@ import java.lang.Number;
 import com.thesundaylunatics.model.Product;
 import com.thesundaylunatics.model.RestockRequest;
 
-rule "Inventory Restock GR"
+rule "Inventory Decision"
 	dialect "mvel"
-	ruleflow-group "inventoryStockDT"
+	ruleflow-group "inventoryStockGR"
 	when
 		inventoryDecision : Product( stockLevel == "Low" , productDemand == "High" , supplierLeadTime == "Long" )
 		inventoryDecision2 : Product( stockLevel == "Low" , productDemand == "High" , supplierLeadTime == "Moderate" )
