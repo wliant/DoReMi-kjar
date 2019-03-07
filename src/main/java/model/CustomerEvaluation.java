@@ -20,17 +20,20 @@ public class CustomerEvaluation implements java.io.Serializable {
 	@org.kie.api.definition.type.Label("FrequencyOfPurchase")
 	private java.lang.String purchaseFreq;
 
-	@org.kie.api.definition.type.Label(value = "Profitability")
+	@org.kie.api.definition.type.Label("Profitability")
 	private java.lang.String profitability;
 
-	@org.kie.api.definition.type.Label(value = "Debt Paying Ability")
+	@org.kie.api.definition.type.Label("Debt Paying Ability")
 	private java.lang.String debtPayingAbility;
 
-	@org.kie.api.definition.type.Label(value = "Operation Ability")
+	@org.kie.api.definition.type.Label("Operation Ability")
 	private java.lang.String operationAbility;
 
-	@org.kie.api.definition.type.Label(value = "Liquidity")
+	@org.kie.api.definition.type.Label("Liquidity")
 	private java.lang.String liquidity;
+
+	@org.kie.api.definition.type.Label(value = "Has Late Payment")
+	private java.lang.Boolean latePayment;
 
 	public CustomerEvaluation() {
 	}
@@ -115,12 +118,21 @@ public class CustomerEvaluation implements java.io.Serializable {
 		this.liquidity = liquidity;
 	}
 
+	public java.lang.Boolean getLatePayment() {
+		return this.latePayment;
+	}
+
+	public void setLatePayment(java.lang.Boolean latePayment) {
+		this.latePayment = latePayment;
+	}
+
 	public CustomerEvaluation(java.lang.Long customerID,
 			java.lang.Boolean defaulter, boolean newCustomer,
 			java.lang.Integer yearsActive, java.lang.Double ltv,
 			java.lang.String purchaseFreq, java.lang.String profitability,
 			java.lang.String debtPayingAbility,
-			java.lang.String operationAbility, java.lang.String liquidity) {
+			java.lang.String operationAbility, java.lang.String liquidity,
+			java.lang.Boolean latePayment) {
 		this.customerID = customerID;
 		this.defaulter = defaulter;
 		this.newCustomer = newCustomer;
@@ -131,6 +143,7 @@ public class CustomerEvaluation implements java.io.Serializable {
 		this.debtPayingAbility = debtPayingAbility;
 		this.operationAbility = operationAbility;
 		this.liquidity = liquidity;
+		this.latePayment = latePayment;
 	}
 
 }
