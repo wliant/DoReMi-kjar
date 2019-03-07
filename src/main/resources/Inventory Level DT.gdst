@@ -848,7 +848,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Do Nothing</valueString>
+        <valueString>Increase Stock Moderately</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
