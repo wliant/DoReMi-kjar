@@ -3,6 +3,8 @@ import com.thesundaylunatics.model.Product;
 
 rule "Inventory Decision"
 	dialect "mvel"
+	ruleflow-group "inventoryStockDT"
 	when
+		inventoryDecision : Product( stockLevel == "Low" )
 	then
 end
