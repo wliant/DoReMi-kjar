@@ -282,23 +282,7 @@
       </childColumns>
     </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
   </conditionPatterns>
-  <actionCols>
-    <set-field-col52>
-      <typedDefaultValue>
-        <valueString>Do Nothing</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </typedDefaultValue>
-      <hideColumn>false</hideColumn>
-      <width>100</width>
-      <header>Inventory Action</header>
-      <boundName>app</boundName>
-      <factField>inventoryDecision</factField>
-      <type>String</type>
-      <valueList>Increase Stock Sharply, Increase Stock Moderately,  Do Nothing, Decrease Stock</valueList>
-      <update>false</update>
-    </set-field-col52>
-  </actionCols>
+  <actionCols/>
   <auditLog>
     <filter class="org.drools.guvnor.client.modeldriven.dt52.auditlog.DecisionTableAuditLogFilter">
       <acceptedTypes>
@@ -329,7 +313,7 @@
   <imports>
     <imports>
       <org.kie.soup.project.datamodel.imports.Import>
-        <type>com.thesundaylunatics.model.ProductInventory</type>
+        <type>com.thesundaylunatics.model.Product</type>
       </org.kie.soup.project.datamodel.imports.Import>
     </imports>
   </imports>
@@ -374,11 +358,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Increase Stock Sharply</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -414,11 +393,6 @@
       </value>
       <value>
         <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Increase Stock Sharply</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -460,11 +434,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Increase Stock Moderately</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -500,11 +469,6 @@
       </value>
       <value>
         <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Increase Stock Sharply</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -546,11 +510,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Increase Stock Moderately</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -586,11 +545,6 @@
       </value>
       <value>
         <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Increase Stock Moderately</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -632,11 +586,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Increase Stock Sharply</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -672,11 +621,6 @@
       </value>
       <value>
         <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Increase Stock Moderately</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -718,11 +662,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Increase Stock Moderately</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -758,11 +697,6 @@
       </value>
       <value>
         <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Increase Stock Moderately</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -804,11 +738,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Increase Stock Moderately</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -844,11 +773,6 @@
       </value>
       <value>
         <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Increase Stock Moderately</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
