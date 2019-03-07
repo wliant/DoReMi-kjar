@@ -374,6 +374,9 @@
       <org.kie.soup.project.datamodel.imports.Import>
         <type>com.thesundaylunatics.model.Customer</type>
       </org.kie.soup.project.datamodel.imports.Import>
+      <org.kie.soup.project.datamodel.imports.Import>
+        <type>model.CustomerEvaluation</type>
+      </org.kie.soup.project.datamodel.imports.Import>
     </imports>
   </imports>
   <packageName></packageName>
