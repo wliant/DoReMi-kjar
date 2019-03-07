@@ -146,4 +146,9 @@ public class CustomerEvaluation implements java.io.Serializable {
 		this.latePaymentInd = latePaymentInd;
 	}
 
+	@Override
+	public String toString() {
+		return "customerID [" + this.customerID + "]";
+	}
+
 }
