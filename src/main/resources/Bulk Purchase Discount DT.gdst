@@ -289,6 +289,58 @@
                   <index>2147483647</index>
                 </expLeftSide>
               </org.drools.workbench.models.datamodel.rule.SingleFieldConstraintEBLeftSide>
+              <org.drools.workbench.models.datamodel.rule.SingleFieldConstraintEBLeftSide>
+                <value></value>
+                <operator>==</operator>
+                <constraintValueType>6</constraintValueType>
+                <expression>
+                  <parts>
+                    <org.drools.workbench.models.datamodel.rule.ExpressionVariable>
+                      <next class="org.drools.workbench.models.datamodel.rule.ExpressionField">
+                        <prev class="org.drools.workbench.models.datamodel.rule.ExpressionVariable" reference="../.."/>
+                        <next class="org.drools.workbench.models.datamodel.rule.ExpressionField">
+                          <prev class="org.drools.workbench.models.datamodel.rule.ExpressionField" reference="../.."/>
+                          <name>id</name>
+                          <classType>java.lang.Long</classType>
+                          <genericType>Long</genericType>
+                        </next>
+                        <name>customer</name>
+                        <classType>Customer</classType>
+                        <genericType>Customer</genericType>
+                      </next>
+                      <name>ord</name>
+                      <classType>Order</classType>
+                      <genericType>Order</genericType>
+                      <factType>Order</factType>
+                    </org.drools.workbench.models.datamodel.rule.ExpressionVariable>
+                    <org.drools.workbench.models.datamodel.rule.ExpressionField reference="../org.drools.workbench.models.datamodel.rule.ExpressionVariable/next"/>
+                    <org.drools.workbench.models.datamodel.rule.ExpressionField reference="../org.drools.workbench.models.datamodel.rule.ExpressionVariable/next/next"/>
+                  </parts>
+                  <index>2147483647</index>
+                </expression>
+                <parameters/>
+                <factType>CustomerEvaluation</factType>
+                <fieldName>customerID</fieldName>
+                <fieldType>java.lang.Long</fieldType>
+                <expLeftSide>
+                  <parts>
+                    <org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact>
+                      <next class="org.drools.workbench.models.datamodel.rule.ExpressionField">
+                        <prev class="org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact" reference="../.."/>
+                        <name>customerID</name>
+                        <classType>java.lang.Long</classType>
+                        <genericType>Long</genericType>
+                      </next>
+                      <name>CustomerEvaluation</name>
+                      <classType>CustomerEvaluation</classType>
+                      <genericType>CustomerEvaluation</genericType>
+                      <factType>CustomerEvaluation</factType>
+                    </org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact>
+                    <org.drools.workbench.models.datamodel.rule.ExpressionField reference="../org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact/next"/>
+                  </parts>
+                  <index>2147483647</index>
+                </expLeftSide>
+              </org.drools.workbench.models.datamodel.rule.SingleFieldConstraintEBLeftSide>
             </constraints>
           </constraintList>
           <factType>CustomerEvaluation</factType>
