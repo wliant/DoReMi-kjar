@@ -6,12 +6,68 @@ package model;
 
 public class CustomerEvaluation implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public CustomerEvaluation() {
-    }
+	@org.kie.api.definition.type.Label(value = "Customer ID")
+	private java.lang.Long customerID;
+	@org.kie.api.definition.type.Label(value = "Defaulter")
+	private java.lang.Boolean defaulter;
+	@org.kie.api.definition.type.Label(value = "Is New")
+	private boolean newCustomer;
+	private java.lang.Integer yearsActive;
+	private java.lang.Double ltv;
 
+	public CustomerEvaluation() {
+	}
 
+	public java.lang.Long getCustomerID() {
+		return this.customerID;
+	}
 
+	public void setCustomerID(java.lang.Long customerID) {
+		this.customerID = customerID;
+	}
+
+	public java.lang.Boolean getDefaulter() {
+		return this.defaulter;
+	}
+
+	public void setDefaulter(java.lang.Boolean defaulter) {
+		this.defaulter = defaulter;
+	}
+
+	public boolean isNewCustomer() {
+		return this.newCustomer;
+	}
+
+	public void setNewCustomer(boolean newCustomer) {
+		this.newCustomer = newCustomer;
+	}
+
+	public java.lang.Integer getYearsActive() {
+		return this.yearsActive;
+	}
+
+	public void setYearsActive(java.lang.Integer yearsActive) {
+		this.yearsActive = yearsActive;
+	}
+
+	public java.lang.Double getLtv() {
+		return this.ltv;
+	}
+
+	public void setLtv(java.lang.Double ltv) {
+		this.ltv = ltv;
+	}
+
+	public CustomerEvaluation(java.lang.Long customerID,
+			java.lang.Boolean defaulter, boolean newCustomer,
+			java.lang.Integer yearsActive, java.lang.Double ltv) {
+		this.customerID = customerID;
+		this.defaulter = defaulter;
+		this.newCustomer = newCustomer;
+		this.yearsActive = yearsActive;
+		this.ltv = ltv;
+	}
 
 }
