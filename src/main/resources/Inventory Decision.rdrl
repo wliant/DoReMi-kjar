@@ -7,6 +7,7 @@ rule "Inventory Decision"
 	ruleflow-group "inventoryStockDT"
 	when
 		inventoryDecision : Product( stockLevel == "Low" , productDemand == "High" , supplierLeadTime == "Long" )
+		Product( stockLevel == "Low" , productDemand == "High" , supplierLeadTime == "Moderate" )
 	then
 		RestockRequest fact0 = new RestockRequest();
 		fact0.setProduct( inventoryDecision );
