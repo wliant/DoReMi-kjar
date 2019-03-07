@@ -8,14 +8,17 @@ public class CustomerEvaluation implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	@org.kie.api.definition.type.Label(value = "Customer ID")
+	@org.kie.api.definition.type.Label("Customer ID")
 	private java.lang.Long customerID;
-	@org.kie.api.definition.type.Label(value = "Defaulter")
+	@org.kie.api.definition.type.Label("Defaulter")
 	private java.lang.Boolean defaulter;
-	@org.kie.api.definition.type.Label(value = "Is New")
+	@org.kie.api.definition.type.Label("Is New")
 	private boolean newCustomer;
 	private java.lang.Integer yearsActive;
 	private java.lang.Double ltv;
+
+	@org.kie.api.definition.type.Label(value = "FrequencyOfPurchase")
+	private java.lang.String purchaseFreq;
 
 	public CustomerEvaluation() {
 	}
@@ -60,14 +63,24 @@ public class CustomerEvaluation implements java.io.Serializable {
 		this.ltv = ltv;
 	}
 
+	public java.lang.String getPurchaseFreq() {
+		return this.purchaseFreq;
+	}
+
+	public void setPurchaseFreq(java.lang.String purchaseFreq) {
+		this.purchaseFreq = purchaseFreq;
+	}
+
 	public CustomerEvaluation(java.lang.Long customerID,
 			java.lang.Boolean defaulter, boolean newCustomer,
-			java.lang.Integer yearsActive, java.lang.Double ltv) {
+			java.lang.Integer yearsActive, java.lang.Double ltv,
+			java.lang.String purchaseFreq) {
 		this.customerID = customerID;
 		this.defaulter = defaulter;
 		this.newCustomer = newCustomer;
 		this.yearsActive = yearsActive;
 		this.ltv = ltv;
+		this.purchaseFreq = purchaseFreq;
 	}
 
 }
