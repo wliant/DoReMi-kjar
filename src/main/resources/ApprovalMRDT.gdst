@@ -215,122 +215,6 @@
         </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
       </childColumns>
     </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
-    <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
-      <hideColumn>false</hideColumn>
-      <width>-1</width>
-      <header>Customer Info</header>
-      <constraintValueType>1</constraintValueType>
-      <parameters/>
-      <definition>
-        <org.drools.workbench.models.datamodel.rule.FactPattern>
-          <constraintList>
-            <constraints>
-              <org.drools.workbench.models.datamodel.rule.SingleFieldConstraintEBLeftSide>
-                <operator>==</operator>
-                <constraintValueType>6</constraintValueType>
-                <expression>
-                  <parts>
-                    <org.drools.workbench.models.datamodel.rule.ExpressionVariable>
-                      <next class="org.drools.workbench.models.datamodel.rule.ExpressionField">
-                        <prev class="org.drools.workbench.models.datamodel.rule.ExpressionVariable" reference="../.."/>
-                        <next class="org.drools.workbench.models.datamodel.rule.ExpressionField">
-                          <prev class="org.drools.workbench.models.datamodel.rule.ExpressionField" reference="../.."/>
-                          <name>id</name>
-                          <classType>java.lang.Long</classType>
-                          <genericType>Long</genericType>
-                        </next>
-                        <name>customer</name>
-                        <classType>Customer</classType>
-                        <genericType>Customer</genericType>
-                      </next>
-                      <name>ord</name>
-                      <classType>Order</classType>
-                      <genericType>Order</genericType>
-                      <factType>Order</factType>
-                    </org.drools.workbench.models.datamodel.rule.ExpressionVariable>
-                    <org.drools.workbench.models.datamodel.rule.ExpressionField reference="../org.drools.workbench.models.datamodel.rule.ExpressionVariable/next"/>
-                    <org.drools.workbench.models.datamodel.rule.ExpressionField reference="../org.drools.workbench.models.datamodel.rule.ExpressionVariable/next/next"/>
-                  </parts>
-                  <index>2147483647</index>
-                </expression>
-                <parameters/>
-                <factType>CustomerEvaluation</factType>
-                <fieldName>customerID</fieldName>
-                <fieldType>java.lang.Long</fieldType>
-                <expLeftSide>
-                  <parts>
-                    <org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact>
-                      <next class="org.drools.workbench.models.datamodel.rule.ExpressionField">
-                        <prev class="org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact" reference="../.."/>
-                        <name>customerID</name>
-                        <classType>java.lang.Long</classType>
-                        <genericType>Long</genericType>
-                      </next>
-                      <name>CustomerEvaluation</name>
-                      <classType>CustomerEvaluation</classType>
-                      <genericType>CustomerEvaluation</genericType>
-                      <factType>CustomerEvaluation</factType>
-                    </org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact>
-                    <org.drools.workbench.models.datamodel.rule.ExpressionField reference="../org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact/next"/>
-                  </parts>
-                  <index>2147483647</index>
-                </expLeftSide>
-              </org.drools.workbench.models.datamodel.rule.SingleFieldConstraintEBLeftSide>
-              <org.drools.workbench.models.datamodel.rule.SingleFieldConstraintEBLeftSide>
-                <value>$isDefaulter</value>
-                <operator>==</operator>
-                <constraintValueType>7</constraintValueType>
-                <expression>
-                  <parts/>
-                  <index>2147483647</index>
-                </expression>
-                <parameters/>
-                <factType>CustomerEvaluation</factType>
-                <fieldName>defaulter</fieldName>
-                <fieldType>java.lang.Boolean</fieldType>
-                <expLeftSide>
-                  <parts>
-                    <org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact>
-                      <next class="org.drools.workbench.models.datamodel.rule.ExpressionField">
-                        <prev class="org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact" reference="../.."/>
-                        <name>defaulter</name>
-                        <classType>java.lang.Boolean</classType>
-                        <genericType>Boolean</genericType>
-                      </next>
-                      <name>CustomerEvaluation</name>
-                      <classType>CustomerEvaluation</classType>
-                      <genericType>CustomerEvaluation</genericType>
-                      <factType>CustomerEvaluation</factType>
-                    </org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact>
-                    <org.drools.workbench.models.datamodel.rule.ExpressionField reference="../org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact/next"/>
-                  </parts>
-                  <index>2147483647</index>
-                </expLeftSide>
-              </org.drools.workbench.models.datamodel.rule.SingleFieldConstraintEBLeftSide>
-            </constraints>
-          </constraintList>
-          <factType>CustomerEvaluation</factType>
-          <boundName>cusEval</boundName>
-          <isNegated>false</isNegated>
-          <window>
-            <parameters/>
-          </window>
-        </org.drools.workbench.models.datamodel.rule.FactPattern>
-      </definition>
-      <childColumns>
-        <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
-          <hideColumn>false</hideColumn>
-          <width>100</width>
-          <header>Customer Info</header>
-          <constraintValueType>1</constraintValueType>
-          <factField>defaulter</factField>
-          <fieldType>Boolean</fieldType>
-          <parameters/>
-          <varName>$isDefaulter</varName>
-          <factType>CustomerEvaluation</factType>
-        </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
-      </childColumns>
-    </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
   </conditionPatterns>
   <actionCols>
     <org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
@@ -398,9 +282,6 @@
       <org.kie.soup.project.datamodel.imports.Import>
         <type>com.thesundaylunatics.model.Customer</type>
       </org.kie.soup.project.datamodel.imports.Import>
-      <org.kie.soup.project.datamodel.imports.Import>
-        <type>model.CustomerEvaluation</type>
-      </org.kie.soup.project.datamodel.imports.Import>
     </imports>
   </imports>
   <packageName></packageName>
@@ -433,12 +314,6 @@
       <value>
         <valueString></valueString>
         <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>false</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -476,12 +351,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueBoolean>true</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>Rejected</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -513,12 +382,6 @@
       <value>
         <valueString>High</valueString>
         <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>true</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -556,12 +419,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueBoolean>true</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>Rejected</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -593,12 +450,6 @@
       <value>
         <valueString>Low</valueString>
         <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>true</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
