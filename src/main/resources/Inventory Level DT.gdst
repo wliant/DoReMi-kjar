@@ -43,7 +43,7 @@
                   <index>2147483647</index>
                 </expression>
                 <parameters/>
-                <factType>ProductInventory</factType>
+                <factType>Product</factType>
                 <fieldName>stockLevel</fieldName>
                 <fieldType>java.lang.String</fieldType>
                 <expLeftSide>
@@ -55,10 +55,10 @@
                         <classType>java.lang.String</classType>
                         <genericType>String</genericType>
                       </next>
-                      <name>ProductInventory</name>
-                      <classType>ProductInventory</classType>
-                      <genericType>ProductInventory</genericType>
-                      <factType>ProductInventory</factType>
+                      <name>Product</name>
+                      <classType>Product</classType>
+                      <genericType>Product</genericType>
+                      <factType>Product</factType>
                     </org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact>
                     <org.drools.workbench.models.datamodel.rule.ExpressionField reference="../org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact/next"/>
                   </parts>
@@ -67,8 +67,8 @@
               </org.drools.workbench.models.datamodel.rule.SingleFieldConstraintEBLeftSide>
             </constraints>
           </constraintList>
-          <factType>ProductInventory</factType>
-          <boundName>app</boundName>
+          <factType>Product</factType>
+          <boundName>inventoryApp</boundName>
           <isNegated>false</isNegated>
           <window>
             <parameters/>
@@ -85,7 +85,7 @@
           <fieldType>String</fieldType>
           <parameters/>
           <varName>$stockLevel</varName>
-          <factType>ProductInventory</factType>
+          <factType>Product</factType>
         </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
       </childColumns>
     </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
@@ -100,7 +100,7 @@
           <constraintList>
             <constraints>
               <org.drools.workbench.models.datamodel.rule.SingleFieldConstraintEBLeftSide>
-                <value>$productDemand</value>
+                <value>$serviceLevel</value>
                 <operator>==</operator>
                 <constraintValueType>7</constraintValueType>
                 <expression>
@@ -108,22 +108,22 @@
                   <index>2147483647</index>
                 </expression>
                 <parameters/>
-                <factType>ProductInventory</factType>
-                <fieldName>productDemand</fieldName>
+                <factType>Product</factType>
+                <fieldName>serviceLevel</fieldName>
                 <fieldType>java.lang.String</fieldType>
                 <expLeftSide>
                   <parts>
                     <org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact>
                       <next class="org.drools.workbench.models.datamodel.rule.ExpressionField">
                         <prev class="org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact" reference="../.."/>
-                        <name>productDemand</name>
+                        <name>serviceLevel</name>
                         <classType>java.lang.String</classType>
                         <genericType>String</genericType>
                       </next>
-                      <name>ProductInventory</name>
-                      <classType>ProductInventory</classType>
-                      <genericType>ProductInventory</genericType>
-                      <factType>ProductInventory</factType>
+                      <name>Product</name>
+                      <classType>Product</classType>
+                      <genericType>Product</genericType>
+                      <factType>Product</factType>
                     </org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact>
                     <org.drools.workbench.models.datamodel.rule.ExpressionField reference="../org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact/next"/>
                   </parts>
@@ -132,7 +132,7 @@
               </org.drools.workbench.models.datamodel.rule.SingleFieldConstraintEBLeftSide>
             </constraints>
           </constraintList>
-          <factType>ProductInventory</factType>
+          <factType>Product</factType>
           <isNegated>false</isNegated>
           <window>
             <parameters/>
@@ -145,11 +145,11 @@
           <width>100</width>
           <header>Product Demand</header>
           <constraintValueType>1</constraintValueType>
-          <factField>productDemand</factField>
+          <factField>serviceLevel</factField>
           <fieldType>String</fieldType>
           <parameters/>
-          <varName>$productDemand</varName>
-          <factType>ProductInventory</factType>
+          <varName>$serviceLevel</varName>
+          <factType>Product</factType>
         </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
       </childColumns>
     </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
@@ -339,12 +339,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Low</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>High</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -377,12 +377,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Low</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>High</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -415,12 +415,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Low</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>High</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -453,12 +453,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Low</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>High</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -491,12 +491,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Low</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>High</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -529,12 +529,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Low</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>High</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -567,12 +567,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Low</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>High</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -605,12 +605,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Low</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>High</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -643,12 +643,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Low</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>High</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -681,12 +681,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Low</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Medium</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -719,12 +719,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Low</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Medium</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -757,12 +757,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Low</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Medium</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
