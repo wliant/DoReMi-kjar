@@ -1,5 +1,6 @@
 import java.lang.Number;
 import com.thesundaylunatics.model.Product;
+import com.thesundaylunatics.model.RestockRequest;
 
 rule "Inventory Decision"
 	dialect "mvel"
