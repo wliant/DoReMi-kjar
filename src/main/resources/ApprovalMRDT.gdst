@@ -226,7 +226,6 @@
           <constraintList>
             <constraints>
               <org.drools.workbench.models.datamodel.rule.SingleFieldConstraintEBLeftSide>
-                <value></value>
                 <operator>==</operator>
                 <constraintValueType>6</constraintValueType>
                 <expression>
@@ -244,7 +243,7 @@
                         <classType>Customer</classType>
                         <genericType>Customer</genericType>
                       </next>
-                      <name>order</name>
+                      <name>ord</name>
                       <classType>Order</classType>
                       <genericType>Order</genericType>
                       <factType>Order</factType>
