@@ -5,6 +5,6 @@ rule "Inventory Decision"
 	dialect "mvel"
 	ruleflow-group "inventoryStockDT"
 	when
-		inventoryDecision : Product( stockLevel == "Low" )
+		inventoryDecision : Product( stockLevel == "Low" , productDemand == "High" , supplierLeadTime == "Long" )
 	then
 end
