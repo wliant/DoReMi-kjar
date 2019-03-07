@@ -33,7 +33,7 @@ public class CustomerEvaluation implements java.io.Serializable {
 	private java.lang.String liquidity;
 
 	@org.kie.api.definition.type.Label(value = "Has Late Payment")
-	private java.lang.Boolean latePayment;
+	private java.lang.Boolean latePaymentInd;
 
 	public CustomerEvaluation() {
 	}
@@ -118,12 +118,12 @@ public class CustomerEvaluation implements java.io.Serializable {
 		this.liquidity = liquidity;
 	}
 
-	public java.lang.Boolean getLatePayment() {
-		return this.latePayment;
+	public java.lang.Boolean getLatePaymentInd() {
+		return this.latePaymentInd;
 	}
 
-	public void setLatePayment(java.lang.Boolean latePayment) {
-		this.latePayment = latePayment;
+	public void setLatePaymentInd(java.lang.Boolean latePaymentInd) {
+		this.latePaymentInd = latePaymentInd;
 	}
 
 	public CustomerEvaluation(java.lang.Long customerID,
@@ -132,7 +132,7 @@ public class CustomerEvaluation implements java.io.Serializable {
 			java.lang.String purchaseFreq, java.lang.String profitability,
 			java.lang.String debtPayingAbility,
 			java.lang.String operationAbility, java.lang.String liquidity,
-			java.lang.Boolean latePayment) {
+			java.lang.Boolean latePaymentInd) {
 		this.customerID = customerID;
 		this.defaulter = defaulter;
 		this.newCustomer = newCustomer;
@@ -143,7 +143,7 @@ public class CustomerEvaluation implements java.io.Serializable {
 		this.debtPayingAbility = debtPayingAbility;
 		this.operationAbility = operationAbility;
 		this.liquidity = liquidity;
-		this.latePayment = latePayment;
+		this.latePaymentInd = latePaymentInd;
 	}
 
 }
