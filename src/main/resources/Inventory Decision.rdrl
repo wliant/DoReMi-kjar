@@ -13,4 +13,8 @@ rule "Inventory Decision"
 		fact0.setProduct( inventoryDecision );
 		fact0.setQuantity( 100 );
 		insert( fact0 );
+		RestockRequest  = new RestockRequest();
+		.setProduct( inventoryDecision );
+		.setQuantity( 200 );
+		insert(  );
 end
