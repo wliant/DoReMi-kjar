@@ -17,8 +17,20 @@ public class CustomerEvaluation implements java.io.Serializable {
 	private java.lang.Integer yearsActive;
 	private java.lang.Double ltv;
 
-	@org.kie.api.definition.type.Label(value = "FrequencyOfPurchase")
+	@org.kie.api.definition.type.Label("FrequencyOfPurchase")
 	private java.lang.String purchaseFreq;
+
+	@org.kie.api.definition.type.Label(value = "Profitability")
+	private java.lang.String profitability;
+
+	@org.kie.api.definition.type.Label(value = "Debt Paying Ability")
+	private java.lang.String debtPayingAbility;
+
+	@org.kie.api.definition.type.Label(value = "Operation Ability")
+	private java.lang.String operationAbility;
+
+	@org.kie.api.definition.type.Label(value = "Liquidity")
+	private java.lang.String liquidity;
 
 	public CustomerEvaluation() {
 	}
@@ -71,16 +83,54 @@ public class CustomerEvaluation implements java.io.Serializable {
 		this.purchaseFreq = purchaseFreq;
 	}
 
+	public java.lang.String getProfitability() {
+		return this.profitability;
+	}
+
+	public void setProfitability(java.lang.String profitability) {
+		this.profitability = profitability;
+	}
+
+	public java.lang.String getDebtPayingAbility() {
+		return this.debtPayingAbility;
+	}
+
+	public void setDebtPayingAbility(java.lang.String debtPayingAbility) {
+		this.debtPayingAbility = debtPayingAbility;
+	}
+
+	public java.lang.String getOperationAbility() {
+		return this.operationAbility;
+	}
+
+	public void setOperationAbility(java.lang.String operationAbility) {
+		this.operationAbility = operationAbility;
+	}
+
+	public java.lang.String getLiquidity() {
+		return this.liquidity;
+	}
+
+	public void setLiquidity(java.lang.String liquidity) {
+		this.liquidity = liquidity;
+	}
+
 	public CustomerEvaluation(java.lang.Long customerID,
 			java.lang.Boolean defaulter, boolean newCustomer,
 			java.lang.Integer yearsActive, java.lang.Double ltv,
-			java.lang.String purchaseFreq) {
+			java.lang.String purchaseFreq, java.lang.String profitability,
+			java.lang.String debtPayingAbility,
+			java.lang.String operationAbility, java.lang.String liquidity) {
 		this.customerID = customerID;
 		this.defaulter = defaulter;
 		this.newCustomer = newCustomer;
 		this.yearsActive = yearsActive;
 		this.ltv = ltv;
 		this.purchaseFreq = purchaseFreq;
+		this.profitability = profitability;
+		this.debtPayingAbility = debtPayingAbility;
+		this.operationAbility = operationAbility;
+		this.liquidity = liquidity;
 	}
 
 }
