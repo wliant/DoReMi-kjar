@@ -270,24 +270,10 @@
     </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
   </conditionPatterns>
   <actionCols>
-    <set-field-col52>
-      <typedDefaultValue>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </typedDefaultValue>
-      <hideColumn>false</hideColumn>
-      <width>100</width>
-      <header>Credit Risk</header>
-      <boundName>cus</boundName>
-      <factField>creditRisk</factField>
-      <type>String</type>
-      <update>false</update>
-    </set-field-col52>
     <org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
       <hideColumn>false</hideColumn>
       <width>-1</width>
-      <header>Credit Risk New</header>
+      <header>Credit Risk</header>
       <definition>
         <org.drools.workbench.models.datamodel.rule.ActionUpdateField>
           <fieldValues>
@@ -305,7 +291,7 @@
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
           <hideColumn>false</hideColumn>
           <width>100</width>
-          <header>Credit Risk New</header>
+          <header>Credit Risk</header>
           <varName>$creditRiskValue</varName>
           <fieldType>String</fieldType>
           <factType>Customer</factType>
@@ -403,11 +389,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -451,11 +432,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -486,11 +462,6 @@
       </value>
       <value>
         <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>High</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -547,11 +518,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -587,11 +553,6 @@
       </value>
       <value>
         <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>High</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -643,11 +604,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -683,11 +639,6 @@
       </value>
       <value>
         <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>High</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -739,11 +690,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -779,11 +725,6 @@
       </value>
       <value>
         <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -835,11 +776,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -870,11 +806,6 @@
       </value>
       <value>
         <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -931,11 +862,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -979,11 +905,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -1004,11 +925,6 @@
       </value>
       <value>
         <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1075,11 +991,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -1123,11 +1034,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -1158,11 +1064,6 @@
       </value>
       <value>
         <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1219,11 +1120,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -1267,11 +1163,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -1302,11 +1193,6 @@
       </value>
       <value>
         <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1363,11 +1249,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -1411,11 +1292,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -1441,11 +1317,6 @@
       </value>
       <value>
         <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1507,11 +1378,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -1547,11 +1413,6 @@
       </value>
       <value>
         <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>High</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1603,11 +1464,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -1643,11 +1499,6 @@
       </value>
       <value>
         <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1699,11 +1550,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -1747,11 +1593,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -1787,11 +1628,6 @@
       </value>
       <value>
         <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1843,11 +1679,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -1883,11 +1714,6 @@
       </value>
       <value>
         <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>High</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1939,11 +1765,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -1987,11 +1808,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -2022,11 +1838,6 @@
       </value>
       <value>
         <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2083,11 +1894,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -2131,11 +1937,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -2166,11 +1967,6 @@
       </value>
       <value>
         <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2227,11 +2023,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -2275,11 +2066,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -2295,11 +2081,6 @@
       </value>
       <value>
         <valueString>creditriskMRDT</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2371,11 +2152,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -2419,11 +2195,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -2454,11 +2225,6 @@
       </value>
       <value>
         <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2515,11 +2281,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -2563,11 +2324,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -2598,11 +2354,6 @@
       </value>
       <value>
         <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2659,11 +2410,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -2707,11 +2453,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -2737,11 +2478,6 @@
       </value>
       <value>
         <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2803,11 +2539,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -2843,11 +2574,6 @@
       </value>
       <value>
         <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2899,11 +2625,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -2939,11 +2660,6 @@
       </value>
       <value>
         <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Low</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2995,11 +2711,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -3035,11 +2746,6 @@
       </value>
       <value>
         <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>High</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3091,11 +2797,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -3139,11 +2840,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -3169,11 +2865,6 @@
       </value>
       <value>
         <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3235,11 +2926,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -3283,11 +2969,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -3318,11 +2999,6 @@
       </value>
       <value>
         <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3379,11 +3055,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -3427,11 +3098,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -3462,11 +3128,6 @@
       </value>
       <value>
         <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3523,11 +3184,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -3571,11 +3227,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -3596,11 +3247,6 @@
       </value>
       <value>
         <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3667,11 +3313,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -3715,11 +3356,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -3750,11 +3386,6 @@
       </value>
       <value>
         <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3811,11 +3442,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -3859,11 +3485,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -3894,11 +3515,6 @@
       </value>
       <value>
         <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -3955,11 +3571,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -3995,11 +3606,6 @@
       </value>
       <value>
         <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -4051,11 +3657,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -4091,11 +3692,6 @@
       </value>
       <value>
         <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Low</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -4147,11 +3743,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -4195,11 +3786,6 @@
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
     </list>
     <list>
       <value>
@@ -4235,11 +3821,6 @@
       </value>
       <value>
         <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Low</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
