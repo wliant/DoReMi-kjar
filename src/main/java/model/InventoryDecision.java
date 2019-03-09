@@ -6,12 +6,34 @@ package model;
 
 public class InventoryDecision implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public InventoryDecision() {
-    }
+	private java.lang.Long productId;
+	private java.lang.Double increaseByPercentage;
 
+	public InventoryDecision() {
+	}
 
+	public java.lang.Long getProductId() {
+		return this.productId;
+	}
 
+	public void setProductId(java.lang.Long productId) {
+		this.productId = productId;
+	}
+
+	public java.lang.Double getIncreaseByPercentage() {
+		return this.increaseByPercentage;
+	}
+
+	public void setIncreaseByPercentage(java.lang.Double increaseByPercentage) {
+		this.increaseByPercentage = increaseByPercentage;
+	}
+
+	public InventoryDecision(java.lang.Long productId,
+			java.lang.Double increaseByPercentage) {
+		this.productId = productId;
+		this.increaseByPercentage = increaseByPercentage;
+	}
 
 }
