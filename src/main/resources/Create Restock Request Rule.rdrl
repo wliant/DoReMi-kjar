@@ -1,7 +1,17 @@
 import java.lang.Number;
+import model.InventoryDecision;
+import com.thesundaylunatics.model.Product;
+import com.thesundaylunatics.model.RestockRequest;
 
 rule "Create Restock Request Rule"
 	dialect "mvel"
+	ruleflow-group "createRestockRequest"
 	when
+		prd : Product( )
+		invDe : InventoryDecision( productId == prd.id )
 	then
+		RestockRequest fact0 = new RestockRequest();
+		fact0.setProduct( prd );
+		fact0.setQuantity( prd.availableInventory * invDe.increaseByPercentage );
+		insert( fact0 );
 end
