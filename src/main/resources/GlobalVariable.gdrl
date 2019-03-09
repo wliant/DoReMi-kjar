@@ -1,1 +1,2 @@
 global java.util.Date today;
+global java.lang.String username;
