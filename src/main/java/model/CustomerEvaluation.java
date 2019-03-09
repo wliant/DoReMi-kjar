@@ -8,31 +8,22 @@ public class CustomerEvaluation implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	@org.kie.api.definition.type.Label("Customer ID")
 	private java.lang.Long customerID;
-	@org.kie.api.definition.type.Label("Defaulter")
 	private java.lang.Boolean defaulter;
-	@org.kie.api.definition.type.Label("Is New")
 	private boolean newCustomer;
 	private java.lang.Integer yearsActive;
 	private java.lang.Double ltv;
 
-	@org.kie.api.definition.type.Label("FrequencyOfPurchase")
 	private java.lang.String purchaseFreq;
 
-	@org.kie.api.definition.type.Label("Profitability")
 	private java.lang.String profitability;
 
-	@org.kie.api.definition.type.Label("Debt Paying Ability")
 	private java.lang.String debtPayingAbility;
 
-	@org.kie.api.definition.type.Label("Operation Ability")
 	private java.lang.String operationAbility;
 
-	@org.kie.api.definition.type.Label("Liquidity")
 	private java.lang.String liquidity;
 
-	@org.kie.api.definition.type.Label(value = "Has Late Payment")
 	private java.lang.Boolean latePaymentInd;
 
 	public CustomerEvaluation() {
