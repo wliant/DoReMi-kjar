@@ -1,0 +1,18 @@
+import java.lang.Number;
+import model.InventoryDecision;
+import com.thesundaylunatics.model.Product;
+import com.thesundaylunatics.model.RestockRequest;
+
+rule "Create Restock Request Fixed Amount"
+	dialect "mvel"
+	ruleflow-group "createRestockRequest"
+	when
+		prd : Product( availableInventory > 100 )
+		invDe : InventoryDecision( productId == prd.id )
+		rr1 : RestockRequest( )
+	then
+		modify( rr1 ) {
+				setProduct( prd ), 
+				setQuantity( prd.availableInventory * invDe.increaseByPercentage * 0.01 )
+		}
+end
