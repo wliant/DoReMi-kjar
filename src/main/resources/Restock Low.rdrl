@@ -2,7 +2,7 @@ import java.lang.Number;
 import com.thesundaylunatics.model.Product;
 import com.thesundaylunatics.model.RestockRequest;
 
-rule "Inventory Decision"
+rule "Restock Low"
 	dialect "mvel"
 	ruleflow-group "inventoryStockGR"
 	when
