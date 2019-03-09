@@ -1,0 +1,3 @@
+query "restockRequestQuery"
+    $result: com.thesundaylunatics.model.RestockRequest( )
+end
