@@ -3,7 +3,7 @@ import model.InventoryDecision;
 import com.thesundaylunatics.model.Product;
 import com.thesundaylunatics.model.RestockRequest;
 
-rule "Create Restock Request Rule"
+rule "Create Restock Request by Percentage"
 	dialect "mvel"
 	ruleflow-group "createRestockRequest"
 	when
