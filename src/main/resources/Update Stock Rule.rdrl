@@ -1,7 +1,15 @@
 import java.lang.Number;
+import com.thesundaylunatics.model.RestockRequest;
+import com.thesundaylunatics.model.Product;
 
 rule "Update Stock Rule"
 	dialect "mvel"
+	ruleflow-group "updateStock"
 	when
+		p1 : Product( )
+		r1 : RestockRequest( product.id == p1.id )
 	then
+		modify( p1 ) {
+				setAvailableInventory( p1.availableInventory + r1.quantity )
+		}
 end
