@@ -7,12 +7,12 @@ rule "Create Restock Request by Percentage"
 	dialect "mvel"
 	ruleflow-group "createRestockRequest"
 	when
-		prd : Product( availableInventory > 100 )
+		prd : Product( availableInventory <= 100 )
 		invDe : InventoryDecision( productId == prd.id )
 		rr1 : RestockRequest( )
 	then
 		modify( rr1 ) {
 				setProduct( prd ), 
-				setQuantity( prd.availableInventory * invDe.increaseByPercentage * 0.01 )
+				setQuantity( 100 )
 		}
 end
