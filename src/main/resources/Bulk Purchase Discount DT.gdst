@@ -384,8 +384,8 @@
             </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
             <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
               <field>message</field>
-              <value>Testing Testing</value>
-              <nature>1</nature>
+              <value>&quot;Order &quot; + ord.id + &quot;is given discount!&quot;</value>
+              <nature>3</nature>
               <type>String</type>
             </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
             <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
