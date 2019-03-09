@@ -7,7 +7,7 @@ rule "Update Stock Rule"
 	ruleflow-group "updateStock"
 	when
 		p1 : Product( )
-		r1 : RestockRequest( product.id == p1.id )
+		r1 : RestockRequest( product != null && product.id == p1.id )
 	then
 		modify( p1 ) {
 				setAvailableInventory( p1.availableInventory + r1.quantity )
