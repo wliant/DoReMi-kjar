@@ -9,9 +9,10 @@ rule "Create Restock Request Rule"
 	when
 		prd : Product( )
 		invDe : InventoryDecision( productId == prd.id )
+		rr1 : RestockRequest( )
 	then
-		RestockRequest fact0 = new RestockRequest();
-		fact0.setProduct( prd );
-		fact0.setQuantity( prd.availableInventory * invDe.increaseByPercentage * 0.01 );
-		insert( fact0 );
+		modify( rr1 ) {
+				setProduct( prd ), 
+				setQuantity( prd.availableInventory * invDe.increaseByPercentage * 0.01 )
+		}
 end
