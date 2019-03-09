@@ -14,14 +14,7 @@
     </marshalling-strategies>
     <event-listeners/>
     <task-event-listeners/>
-    <globals>
-        <global>
-            <resolver>spring</resolver>
-            <identifier>authentication</identifier>
-            <parameters/>
-            <name>auth</name>
-        </global>
-    </globals>
+    <globals/>
     <work-item-handlers/>
     <environment-entries/>
     <configurations/>
