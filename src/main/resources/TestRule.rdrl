@@ -1,7 +1,15 @@
 import java.lang.Number;
+import com.thesundaylunatics.model.Notification;
+import com.thesundaylunatics.model.Customer;
 
 rule "TestRule"
 	dialect "mvel"
+	ruleflow-group "testRule"
 	when
+		Customer( )
 	then
+		Notification fact0 = new Notification();
+		fact0.setIsRead( false );
+		fact0.setMessage( "Test message" );
+		insertLogical( fact0 );
 end
