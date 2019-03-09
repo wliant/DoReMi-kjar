@@ -27,263 +27,6 @@
     <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
       <hideColumn>false</hideColumn>
       <width>-1</width>
-      <header>Stock Level</header>
-      <constraintValueType>1</constraintValueType>
-      <parameters/>
-      <definition>
-        <org.drools.workbench.models.datamodel.rule.FactPattern>
-          <constraintList>
-            <constraints>
-              <org.drools.workbench.models.datamodel.rule.SingleFieldConstraintEBLeftSide>
-                <value>$stockLevel</value>
-                <operator>==</operator>
-                <constraintValueType>7</constraintValueType>
-                <expression>
-                  <parts/>
-                  <index>2147483647</index>
-                </expression>
-                <parameters/>
-                <factType>Product</factType>
-                <fieldName>stockLevel</fieldName>
-                <fieldType>java.lang.String</fieldType>
-                <expLeftSide>
-                  <parts>
-                    <org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact>
-                      <next class="org.drools.workbench.models.datamodel.rule.ExpressionField">
-                        <prev class="org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact" reference="../.."/>
-                        <name>stockLevel</name>
-                        <classType>java.lang.String</classType>
-                        <genericType>String</genericType>
-                      </next>
-                      <name>Product</name>
-                      <classType>Product</classType>
-                      <genericType>Product</genericType>
-                      <factType>Product</factType>
-                    </org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact>
-                    <org.drools.workbench.models.datamodel.rule.ExpressionField reference="../org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact/next"/>
-                  </parts>
-                  <index>2147483647</index>
-                </expLeftSide>
-              </org.drools.workbench.models.datamodel.rule.SingleFieldConstraintEBLeftSide>
-            </constraints>
-          </constraintList>
-          <factType>Product</factType>
-          <boundName>inventoryApp</boundName>
-          <isNegated>false</isNegated>
-          <window>
-            <parameters/>
-          </window>
-        </org.drools.workbench.models.datamodel.rule.FactPattern>
-      </definition>
-      <childColumns>
-        <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
-          <hideColumn>false</hideColumn>
-          <width>100</width>
-          <header>Stock Level</header>
-          <constraintValueType>1</constraintValueType>
-          <factField>stockLevel</factField>
-          <fieldType>String</fieldType>
-          <parameters/>
-          <varName>$stockLevel</varName>
-          <factType>Product</factType>
-        </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
-      </childColumns>
-    </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
-    <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
-      <hideColumn>false</hideColumn>
-      <width>-1</width>
-      <header>Product Demand</header>
-      <constraintValueType>1</constraintValueType>
-      <parameters/>
-      <definition>
-        <org.drools.workbench.models.datamodel.rule.FactPattern>
-          <constraintList>
-            <constraints>
-              <org.drools.workbench.models.datamodel.rule.SingleFieldConstraintEBLeftSide>
-                <value>$productDemand</value>
-                <operator>==</operator>
-                <constraintValueType>7</constraintValueType>
-                <expression>
-                  <parts/>
-                  <index>2147483647</index>
-                </expression>
-                <parameters/>
-                <factType>Product</factType>
-                <fieldName>productDemand</fieldName>
-                <fieldType>java.lang.String</fieldType>
-                <expLeftSide>
-                  <parts>
-                    <org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact>
-                      <next class="org.drools.workbench.models.datamodel.rule.ExpressionField">
-                        <prev class="org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact" reference="../.."/>
-                        <name>productDemand</name>
-                        <classType>java.lang.String</classType>
-                        <genericType>String</genericType>
-                      </next>
-                      <name>Product</name>
-                      <classType>Product</classType>
-                      <genericType>Product</genericType>
-                      <factType>Product</factType>
-                    </org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact>
-                    <org.drools.workbench.models.datamodel.rule.ExpressionField reference="../org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact/next"/>
-                  </parts>
-                  <index>2147483647</index>
-                </expLeftSide>
-              </org.drools.workbench.models.datamodel.rule.SingleFieldConstraintEBLeftSide>
-            </constraints>
-          </constraintList>
-          <factType>Product</factType>
-          <isNegated>false</isNegated>
-          <window>
-            <parameters/>
-          </window>
-        </org.drools.workbench.models.datamodel.rule.FactPattern>
-      </definition>
-      <childColumns>
-        <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
-          <hideColumn>false</hideColumn>
-          <width>100</width>
-          <header>Product Demand</header>
-          <constraintValueType>1</constraintValueType>
-          <factField>productDemand</factField>
-          <fieldType>String</fieldType>
-          <parameters/>
-          <varName>$productDemand</varName>
-          <factType>Product</factType>
-        </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
-      </childColumns>
-    </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
-    <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
-      <hideColumn>false</hideColumn>
-      <width>-1</width>
-      <header>Supplier Lead Time</header>
-      <constraintValueType>1</constraintValueType>
-      <parameters/>
-      <definition>
-        <org.drools.workbench.models.datamodel.rule.FactPattern>
-          <constraintList>
-            <constraints>
-              <org.drools.workbench.models.datamodel.rule.SingleFieldConstraintEBLeftSide>
-                <value>$supplierLeadTime</value>
-                <operator>==</operator>
-                <constraintValueType>7</constraintValueType>
-                <expression>
-                  <parts/>
-                  <index>2147483647</index>
-                </expression>
-                <parameters/>
-                <factType>Product</factType>
-                <fieldName>supplierLeadTime</fieldName>
-                <fieldType>java.lang.String</fieldType>
-                <expLeftSide>
-                  <parts>
-                    <org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact>
-                      <next class="org.drools.workbench.models.datamodel.rule.ExpressionField">
-                        <prev class="org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact" reference="../.."/>
-                        <name>supplierLeadTime</name>
-                        <classType>java.lang.String</classType>
-                        <genericType>String</genericType>
-                      </next>
-                      <name>Product</name>
-                      <classType>Product</classType>
-                      <genericType>Product</genericType>
-                      <factType>Product</factType>
-                    </org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact>
-                    <org.drools.workbench.models.datamodel.rule.ExpressionField reference="../org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact/next"/>
-                  </parts>
-                  <index>2147483647</index>
-                </expLeftSide>
-              </org.drools.workbench.models.datamodel.rule.SingleFieldConstraintEBLeftSide>
-            </constraints>
-          </constraintList>
-          <factType>Product</factType>
-          <isNegated>false</isNegated>
-          <window>
-            <parameters/>
-          </window>
-        </org.drools.workbench.models.datamodel.rule.FactPattern>
-      </definition>
-      <childColumns>
-        <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
-          <hideColumn>false</hideColumn>
-          <width>100</width>
-          <header>Supplier Lead Time</header>
-          <constraintValueType>1</constraintValueType>
-          <factField>supplierLeadTime</factField>
-          <fieldType>String</fieldType>
-          <parameters/>
-          <varName>$supplierLeadTime</varName>
-          <factType>Product</factType>
-        </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
-      </childColumns>
-    </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
-    <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
-      <hideColumn>false</hideColumn>
-      <width>-1</width>
-      <header>Service Level</header>
-      <constraintValueType>1</constraintValueType>
-      <parameters/>
-      <definition>
-        <org.drools.workbench.models.datamodel.rule.FactPattern>
-          <constraintList>
-            <constraints>
-              <org.drools.workbench.models.datamodel.rule.SingleFieldConstraintEBLeftSide>
-                <value>$serviceLevel</value>
-                <operator>==</operator>
-                <constraintValueType>7</constraintValueType>
-                <expression>
-                  <parts/>
-                  <index>2147483647</index>
-                </expression>
-                <parameters/>
-                <factType>Product</factType>
-                <fieldName>serviceLevel</fieldName>
-                <fieldType>java.lang.String</fieldType>
-                <expLeftSide>
-                  <parts>
-                    <org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact>
-                      <next class="org.drools.workbench.models.datamodel.rule.ExpressionField">
-                        <prev class="org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact" reference="../.."/>
-                        <name>serviceLevel</name>
-                        <classType>java.lang.String</classType>
-                        <genericType>String</genericType>
-                      </next>
-                      <name>Product</name>
-                      <classType>Product</classType>
-                      <genericType>Product</genericType>
-                      <factType>Product</factType>
-                    </org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact>
-                    <org.drools.workbench.models.datamodel.rule.ExpressionField reference="../org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact/next"/>
-                  </parts>
-                  <index>2147483647</index>
-                </expLeftSide>
-              </org.drools.workbench.models.datamodel.rule.SingleFieldConstraintEBLeftSide>
-            </constraints>
-          </constraintList>
-          <factType>Product</factType>
-          <isNegated>false</isNegated>
-          <window>
-            <parameters/>
-          </window>
-        </org.drools.workbench.models.datamodel.rule.FactPattern>
-      </definition>
-      <childColumns>
-        <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
-          <hideColumn>false</hideColumn>
-          <width>100</width>
-          <header>Service Level</header>
-          <constraintValueType>1</constraintValueType>
-          <factField>serviceLevel</factField>
-          <fieldType>String</fieldType>
-          <parameters/>
-          <varName>$serviceLevel</varName>
-          <factType>Product</factType>
-        </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
-      </childColumns>
-    </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
-    <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
-      <hideColumn>false</hideColumn>
-      <width>-1</width>
       <header>Product Status</header>
       <constraintValueType>1</constraintValueType>
       <parameters/>
@@ -477,42 +220,6 @@
     <org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
       <hideColumn>false</hideColumn>
       <width>-1</width>
-      <header>Inventory Restock</header>
-      <definition>
-        <org.drools.workbench.models.datamodel.rule.ActionInsertFact>
-          <fieldValues>
-            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-              <field>quantity</field>
-              <value>$default</value>
-              <nature>7</nature>
-              <type>Integer</type>
-            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-              <field>product</field>
-              <value>=inventoryApp</value>
-              <nature>2</nature>
-              <type>Product</type>
-            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-          </fieldValues>
-          <factType>RestockRequest</factType>
-          <isBound>false</isBound>
-        </org.drools.workbench.models.datamodel.rule.ActionInsertFact>
-      </definition>
-      <childColumns>
-        <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
-          <hideColumn>false</hideColumn>
-          <width>100</width>
-          <header>Inventory Restock</header>
-          <varName>$default</varName>
-          <fieldType>Integer</fieldType>
-          <factType>RestockRequest</factType>
-          <factField>quantity</factField>
-        </org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
-      </childColumns>
-    </org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
-    <org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
-      <hideColumn>false</hideColumn>
-      <width>-1</width>
       <header>Add Decision</header>
       <definition>
         <org.drools.workbench.models.datamodel.rule.ActionInsertFact>
@@ -629,32 +336,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Long</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">40</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueNumeric class="double">40.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
@@ -696,32 +377,6 @@
       <value>
         <valueString>Medium</valueString>
         <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Long</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">40</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -769,32 +424,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Long</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">40</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueNumeric class="double">40.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
@@ -836,32 +465,6 @@
       <value>
         <valueString>Medium</valueString>
         <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Long</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">40</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -909,32 +512,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Long</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">40</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueNumeric class="double">40.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
@@ -976,32 +553,6 @@
       <value>
         <valueString>Medium</valueString>
         <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Long</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">40</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -1049,32 +600,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Long</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">40</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueNumeric class="double">40.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
@@ -1116,32 +641,6 @@
       <value>
         <valueString>High</valueString>
         <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Moderate</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">40</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -1189,32 +688,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Moderate</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">40</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueNumeric class="double">40.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
@@ -1256,32 +729,6 @@
       <value>
         <valueString>High</valueString>
         <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Moderate</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">40</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -1329,32 +776,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Moderate</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">40</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueNumeric class="double">40.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
@@ -1396,32 +817,6 @@
       <value>
         <valueString>High</valueString>
         <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Moderate</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">40</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -1469,32 +864,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Moderate</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">40</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueNumeric class="double">40.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
@@ -1536,32 +905,6 @@
       <value>
         <valueString>High</valueString>
         <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Short</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">40</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -1609,32 +952,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Short</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">40</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueNumeric class="double">40.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
@@ -1676,32 +993,6 @@
       <value>
         <valueString>High</valueString>
         <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Short</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">40</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -1749,32 +1040,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Long</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">40</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueNumeric class="double">40.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
@@ -1816,32 +1081,6 @@
       <value>
         <valueString>Medium</valueString>
         <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Long</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">40</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -1889,32 +1128,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Long</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">40</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueNumeric class="double">40.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
@@ -1956,32 +1169,6 @@
       <value>
         <valueString>Medium</valueString>
         <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Moderate</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">40</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -2029,32 +1216,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Moderate</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">40</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueNumeric class="double">40.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
@@ -2096,32 +1257,6 @@
       <value>
         <valueString>High</valueString>
         <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Moderate</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">40</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -2169,32 +1304,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Moderate</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">40</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueNumeric class="double">40.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
@@ -2236,32 +1345,6 @@
       <value>
         <valueString>Low</valueString>
         <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Moderate</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">40</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -2309,32 +1392,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Moderate</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">40</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueNumeric class="double">40.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
@@ -2376,32 +1433,6 @@
       <value>
         <valueString>Medium</valueString>
         <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Moderate</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">40</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -2449,32 +1480,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Short</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">40</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueNumeric class="double">40.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
@@ -2516,32 +1521,6 @@
       <value>
         <valueString>Medium</valueString>
         <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Short</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">40</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -2589,32 +1568,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Short</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">40</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueNumeric class="double">40.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
@@ -2656,32 +1609,6 @@
       <value>
         <valueString>Medium</valueString>
         <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Short</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">40</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -2729,32 +1656,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Short</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">40</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueNumeric class="double">40.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
@@ -2796,32 +1697,6 @@
       <value>
         <valueString>High</valueString>
         <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Short</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">40</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -2869,32 +1744,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Short</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">40</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueNumeric class="double">40.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
@@ -2936,32 +1785,6 @@
       <value>
         <valueString>High</valueString>
         <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Long</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">70</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -3009,32 +1832,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Long</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">70</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueNumeric class="double">70.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
@@ -3076,32 +1873,6 @@
       <value>
         <valueString>Low</valueString>
         <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Long</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">70</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -3149,32 +1920,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Long</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">70</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueNumeric class="double">70.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
@@ -3216,32 +1961,6 @@
       <value>
         <valueString>Medium</valueString>
         <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Long</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">70</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -3289,32 +2008,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Medium</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Long</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">70</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueNumeric class="double">70.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
@@ -3356,32 +2049,6 @@
       <value>
         <valueString>High</valueString>
         <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Low</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Moderate</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>High</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">70</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
